@@ -1,6 +1,6 @@
 function TopBar() {
   return (
-    <div className="w-full h-20 flex items-center bg-background opacity-80 fixed top-0 left-0 backdrop-blur-md z-1">
+    <div className="w-full h-20 flex items-center bg-background opacity-80 fixed top-0 left-0 backdrop-blur-xl z-10">
       <img
         src="logo.jpg"
         alt="Maria y Montejo logo"
