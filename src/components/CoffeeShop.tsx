@@ -8,9 +8,8 @@ function CoffeeShop() {
           </h1>
           <p className="text-4xl text-background font-serif">Próximamente...</p>
         </div>
-        {/*texto papu pro*/}
       </div>
-      <div className="w-screen h-screen flex items-center justify-center gap-50">
+      <div className="w-screen h-screen flex items-center justify-center gap-50 border-b border-border">
         <div className="w-3xl h-full flex flex-col items-center justify-center gap-8 text-wrap">
           <h2 className="font-serif text-6xl text-left">
             Un espacio donde el tiempo se detiene
@@ -29,8 +28,33 @@ function CoffeeShop() {
           <img
             src="src/assets/mariaymontejointerior.png"
             alt="Interior Maria y Montejo"
-            className=""
           />
+        </div>
+      </div>
+      <div className="flex flex-col items-center  gap-10 w-full my-30">
+        <h2 className="font-serif text-6xl ">Nuestra experiencia</h2>
+        <div className="flex items-center p-10 w-full">
+          <div className="flex flex-col items-center gap-4  max-w-lg">
+            <h3 className="font-serif text-3xl  ">Café de especialidad</h3>
+            <p className="font-extralight text-muted-foreground text-center">
+              Granos cuidadosamente seleccionados, tostados artesanalmente y
+              preparados con métodos que resaltan su perfil único.
+            </p>
+          </div>
+          <div className="flex flex-col items-center max-w-lg ml-auto mr-auto gap-4">
+            <h3 className="font-serif text-3xl">Arquitectura Consciente</h3>
+            <p className="font-extralight text-muted-foreground text-center">
+              Espacios diseñados para el descanso visual y mental, donde cada
+              detalle invita a la contemplación.
+            </p>
+          </div>
+          <div className="flex flex-col items-center max-w-lg gap-4">
+            <h3 className="font-serif text-3xl">Comunidad Local</h3>
+            <p className="font-extralight text-muted-foreground text-center">
+              Un punto de encuentro para creadores, pensadores y quienes buscan
+              momentos de quietud en la ciudad.
+            </p>
+          </div>
         </div>
       </div>
     </>
