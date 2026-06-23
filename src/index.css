@@ -6,6 +6,7 @@
   --font-sans: "Inter", sans-serif;
 
   --background: #fafaf8;
+  --extra: #f5f3f0;
   --foreground: #2a2a2a;
   --muted-foreground: #6b6b6b;
   --accent: #8b9a8e;
@@ -24,6 +25,7 @@
   --color-muted-foreground: var(--muted-foreground);
   --color-accent: var(--accent);
   --color-border: var(--border);
+  --color-extra: var(--extra);
 
   --radius-lg: var(--radius);
 
