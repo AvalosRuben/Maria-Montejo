@@ -1,12 +1,14 @@
 function CoffeeShop() {
   return (
     <>
-      <div className="bg-[url(/mariaymontejohero.jpg)] w-screen h-screen bg-accent flex flex-col justify-center items-center">
+      <div className="bg-[url(/mariaymontejohero.jpg)] bg-cover bg-center w-full min-h-screen bg-accent flex flex-col justify-center items-center">
         <div className="flex flex-col gap-6 items-center">
-          <h1 className="text-9xl font-serif text-background">
+          <h1 className="text-5xl sm:text-7xl md:text-9xl font-serif text-background">
             Maria & Montejo
           </h1>
-          <p className="text-4xl text-background font-serif">Próximamente...</p>
+          <p className="text-2xl md:text-4xl text-background font-serif">
+            Próximamente...
+          </p>
         </div>
       </div>
       <div className="w-screen h-screen flex items-center justify-center gap-50 border-b border-border">
