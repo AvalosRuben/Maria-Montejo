@@ -7,3 +7,5 @@ Maria & Montejo is my favorite coffee shop, so i decided to practice a bit of ba
 - React + Vite
 - Tailwind CSS
 - Typescript
+
+You can access the page on [here](https://mariaymontejo.vercel.app/)
