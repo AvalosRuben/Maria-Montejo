@@ -28,7 +28,7 @@ function CoffeeShop() {
         </div>
         <div className="w-full lg:max-w-xl flex justify-center items-center">
           <img
-            src="src/assets/mariaymontejointerior.png"
+            src="/mariaymontejointerior.png"
             alt="Interior Maria y Montejo"
             className="w-full h-auto max-h-[500px] object-cover"
           />
