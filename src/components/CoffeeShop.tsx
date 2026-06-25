@@ -69,11 +69,13 @@ function CoffeeShop() {
         </div>
       </div>
       <div className="bg-extra/30 w-full flex flex-col items-center py-15 gap-6">
-        <p className="font-extralight text-muted-foreground text-xl">
+        <p className="font-extralight text-muted-foreground text-sm md:text-xl">
           UBICACIÓN
         </p>
-        <p className="font-serif text-3xl">C.58, entre 37 y 39, Centro</p>
-        <p className="font-extralight text-muted-foreground text-xl">
+        <p className="font-serif text-xl md:text-3xl">
+          C.58, entre 37 y 39, Centro
+        </p>
+        <p className="font-extralight text-muted-foreground text-sm md:text-xl">
           Mérida, Yucatán
         </p>
       </div>
