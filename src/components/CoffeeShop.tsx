@@ -6,9 +6,6 @@ function CoffeeShop() {
           <h1 className="text-5xl sm:text-7xl md:text-9xl font-serif text-background">
             Maria & Montejo
           </h1>
-          <p className="text-2xl md:text-4xl text-background font-serif">
-            Próximamente...
-          </p>
         </div>
       </div>
       <div className="w-full min-h-screen flex flex-col lg:flex-row  items-center justify-center gap-12 p-6 md:p-12 max-w-7xl mx-auto border-b border-border ">
